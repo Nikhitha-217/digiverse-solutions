@@ -1,0 +1,35 @@
+.body {
+    margin: 0;
+}
+.home {
+    height: 108vh;
+}
+.vn {
+    height: 100px;
+    width: 180px;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+.nav {
+    padding: 10px;
+    padding-right: 30px;
+}
+.nav-link {
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 2px , 0 0 25px blue, 0 0 5px darkblue;
+}
+.nav-link:hover {
+    color: black;
+    text-shadow: 1px 1px 2px , 0 0 25px blue, 0 0 5px darkblue;
+}
